@@ -1,5 +1,5 @@
 # UMMroom v0.01
-Adalah sebuah platform aplikasi online untuk memantau keterpakaian ruang kelas dengan sistem IoT menggunakan sensor PIR dan Nodemcu, kemudian setelah data didapatkan dari maka data akan disimpan secara realtime pada database MYSQL.
+Adalah sebuah platform aplikasi online berbasis website untuk memantau keterpakaian ruang kelas dengan sistem IoT menggunakan sensor PIR dan Nodemcu, setelah data didapatkan dari sensor maka data akan disimpan pada database MYSQL dan ditampilkan secara realtime.
 
 <b>Tujuan</b>
 1. isualisasi data dari sensor ke Web Server
