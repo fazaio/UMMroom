@@ -30,6 +30,12 @@ Adalah sebuah platform aplikasi online berbasis website untuk memantau keterpaka
 
 <b>Paduan Instalasi</b>
 1. Install XAMPP
-2. extract file pada Localhost
-3. Import Database ummroom.sql pada http://localhost/phpmyadmin
-4. Kunjungi http://localhost/UMMroom
+2. Start Apache & Mysql
+3. extract file pada Localhost pada direktori C://xampp/htdocs/
+4. kunjungi Http://localhost/phpmyadmin
+5. Buat database baru dengan nama ( ummroom )
+6. Import Sql ummroom.sql
+7. Dokumen lengkap Kunjungi http://localhost/UMMroom
+
+
+Kontak bantu: faza6028@gmail.com
