@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+
+    <title>UMMroom</title>
+  </head>
+  <body>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="main.html"><div class="btn btn-danger"><b>UMMroom</b></div></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sensor.html">Sensor</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-3">
+            <div class="px-2 py-4 bg-light rounded" style="height: 400px;">
+                <a href="main.html" class="btn btn-block btn-light bg-white shadow text-left"><i class="fa fa-building"></i> Live room</a>
+                <a href="about.html" class="mt-3 btn btn-block btn-light bg-white shadow text-left"><i class="fa fa-info-circle"></i> About</a>
+                <button class="mt-5 btn btn-block bg-light shadow text-center"></i> Logout</button>
+            </div>
+        </div>
+        <div class="col-9">    
+
+
+        <div class="p-2 bg-white rounded shadow" style="margin-top: 100px;">
+            <div class="p-2 text-center" style="margin-top: -80px;">
+                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:150px;border-radius: 50%;">
+            </div>
+            <div class="p-2 border-bottom">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <b>Nama</b>
+                        <ul>
+                            <li>Faza Aulia Rosyadan</li>
+                        </ul>
+                        <b>Nim</b>
+                        <ul>
+                            <li>201610130311117</li>
+                        </ul>
+                        <b>Jurusan</b>
+                        <ul>
+                            <li>Teknik Elektro</li>
+                        </ul>
+                        <b>Sosial Media</b>
+                            <div class="p-2"> 
+                                <p><i class="fa fa-instagram"></i> @faza.au</p>
+                                <p><i class="fa fa-github"></i> @fazaio</p>
+                                <p><i class="fa fa-codepen"></i> @fazaio</p>
+                                <p><i class="fa fa-whatsapp"></i> 08993774262</p>
+                                <p><i class="fa fa-code"></i> <span class="text-danger">Https://fazaio.web.app/</span></p>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 text-muted">
+                        <b>UMMroom</b>
+                        <ul>
+                            <li>
+                                adalah sebuah platform aplikasi online untuk memantau keterpakaian ruang kelas dengan sistem IoT menggunakan sensor PIR dan Nodemcu, kemudian setelah data didapatkan dari maka data akan disimpan secara realtime pada database MYSQL. 
+                            </li>
+                        </ul>
+                        <b>Tujuan</b>
+                        <ul>
+                            <li>Visualisasi data dari sensor ke Web Server</li>
+                            <li>Mengembangkan IoT dengan teknologi Web server Sebagai pengelolahan database dan visualisasi database</li>
+                        </ul>
+                        <b>Manfaat</b>
+                        <ul>
+                            <li>Untuk memudahkan memantau ruang kelas secara Realtime menggunakan IoT dan Webserver</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2">
+                <div class="p-2 text-center">
+                    <h3>Components :</h3>
+                </div>
+                <b>Front-End</b>
+                <div class="row text-center mt-3">
+                    <div class="col">
+                        <img src="img/icon-vuejs.png" width="50px" alt="">
+                        <p class="text-secondary">VueJS</p>
+                    </div>                  
+                    <div class="col">
+                        <img src="img/icon-bootstrap.png" width="50px" alt="">
+                        <p class="text-secondary">Bootstrap</p>
+                    </div>                    
+                </div>
+
+                <b> Back-end</b>
+                <div class="row text-center my-5">
+                    <div class="col">
+                        <img src="img/icon-php.png" width="80px" alt="">
+                    </div>                  
+                    <div class="col">
+                        <img src="img/icon-mysql.png" width="80px" alt="">
+                    </div>                    
+                </div>
+                <div class="py-2 text-center">
+                    <a href="doc.html" class="btn btn-danger">See Documentation <i class="    fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="p-5 text-center" style="font-size: 12px">Builth with <i class="fa fa-heart text-danger"></i> | 
+  Powered By <span class="text-danger"><b>@fazaio</b></span> | 2019
+</div>
+    </div>
+</div>
+</body>
+</html>
